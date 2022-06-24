@@ -1,0 +1,170 @@
+:root {
+    --background-color: #F5F4FA;
+    --color-accent: #212121;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px; letter-spacing: 0.03em;
+    background-color: #ffffff;
+}
+
+.header {
+    color: #E5E5E5;
+}
+
+.main {
+    color: var(--color-accent);
+}
+
+.web {
+    color: #2196F3;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link-nav {
+    list-style: none;
+}
+.link {
+    color: var(--color-accent);
+    font-weight: 500;
+    text-decoration: none;
+}
+.link:hover {
+    color: #2196F3;
+    font-weight: 500;
+}
+
+.footer {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background-color: var(--color-accent);
+}
+.footer-link {
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #2196F3;
+}
+
+.button :hover {
+    background-color: #2196F3;
+}
+
+.button :focus {
+    background-color: #04508f;
+}
+
+.button {
+    list-style-type: none;
+    background-color: var(--background-color);
+}
+
+.button-all {
+    border: solid transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    position: absolute;
+    width: 73px;
+    height: 38px;
+    cursor: pointer;
+}
+.button-website {
+    border: solid transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    cursor: pointer;
+}
+.button-app {
+    border: solid transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    position: absolute;
+    width: 145px;
+    top: 174px;
+    cursor: pointer;
+}
+.button-design {
+    border: solid transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    position: absolute;
+    width: 103px;
+    top: 174px;
+    cursor: pointer;
+}
+.button-marketing {
+    border: solid transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    position: absolute;
+    width: 130px;
+
+    top: 174px;
+    cursor: pointer;
+}
+
+.notebook {
+    position: absolute;
+    width: 370px;
+    top: 262px;
+    list-style-type: none;
+}
+
+.basketball {
+    position: absolute;
+    width: 370px;
+    top: 262px;
+    list-style-type: none;
+}
+.restaurant {
+    position: absolute;
+    width: 370px;
+    top: 262px;
+    list-style-type: none;
+}
+.headphones {
+    position: absolute;
+    width: 370px;
+    top: 696px;
+    list-style-type: none;
+}
+.boxes {
+    position: absolute;
+    width: 370px;
+    top: 696px;
+    list-style-type: none;
+}
+.monitor {
+position: absolute;
+    width: 370px;
+    top: 696px;
+    list-style-type: none;
+}
+.journal {
+    position: absolute;
+    width: 370px;
+    top: 1130px;
+    list-style-type: none;
+}
+.label {
+    position: absolute;
+    width: 370px;
+    top: 1130px;
+    list-style-type: none;
+}
+.growing {
+    position: absolute;
+    width: 370px;
+    top: 1130px;
+    list-style-type: none;
+}
