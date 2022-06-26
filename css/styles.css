@@ -1,39 +1,100 @@
 :root {
-    --background-color: #F5F4FA;
+    --background-color: #E5E5E5;
     --color-accent: #212121;
 }
 
 body {
     font-family:'Roboto', sans-serif;
     font-size: 14px; letter-spacing: 0.03em;
-    background-color: #ffffff;
+    color: var(--background-color);
 }
 
 .header {
-    color: #E5E5E5;
+background-color:  #ffffff;
 }
 
 .main {
     color: var(--color-accent);
 }
+.h1 {
+    color: #ffffff;
+    font-weight: 900;
+}
 
-.web {
-    color: #2196F3;
+.section-h1-button {
+background-color: var(--color-accent);
+color: #ffffff;
+}
+
+.h2-hidden {
+    visibility: hidden;
+}
+
+.h2, h3 {
     font-weight: 700;
+    color: var(--color-accent);
+}
+
+.h3-p {
+    font-weight: 400;
+    color: #757575;
+}
+
+.our-team {
+    background-color: #F5F4FA;
+}
+
+.igor {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.olja {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nike {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.mike {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.web, .web-footer  {
+    font-weight: 700;
+    color: var(--color-accent);
     text-decoration: none;
+}
+.web-footer {
+    color: #ffffff;
 }
 
 .link-nav {
     list-style: none;
+    
 }
 .link {
-    color: var(--color-accent);
     font-weight: 500;
     text-decoration: none;
+    color: var(--color-accent);
+    font-style: normal;
+}
+.link-tel, .footer-link-tel, .footer-link-mail {
+    font-weight: 500;
+    text-decoration: none;
+    color: #757575;
+    font-style: normal
 }
 .link:hover {
     color: #2196F3;
-    font-weight: 500;
 }
 
 .footer {
@@ -51,6 +112,18 @@ body {
 }
 .footer-link:hover {
     color: #2196F3;
+}
+
+.button-order-service {
+    background-color: #2196F3;
+    color: #ffffff;
+    border: solid transparent;
+    border-radius: 4px;
+    font-weight: 700;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;    
 }
 
 .button :hover {
@@ -108,63 +181,15 @@ body {
     font-weight: 500;
     position: absolute;
     width: 130px;
-
     top: 174px;
     cursor: pointer;
 }
 
-.notebook {
-    position: absolute;
-    width: 370px;
-    top: 262px;
-    list-style-type: none;
+.notebook, .basketball, .restaurant, .headphones, .boxes, .monitor, .journal, .label, .growing {
+    background-color: #ffffff;
+    border: 1px solid #EEEEEE;
+    font-weight: 400;
+    color: #757575;
 }
 
-.basketball {
-    position: absolute;
-    width: 370px;
-    top: 262px;
-    list-style-type: none;
-}
-.restaurant {
-    position: absolute;
-    width: 370px;
-    top: 262px;
-    list-style-type: none;
-}
-.headphones {
-    position: absolute;
-    width: 370px;
-    top: 696px;
-    list-style-type: none;
-}
-.boxes {
-    position: absolute;
-    width: 370px;
-    top: 696px;
-    list-style-type: none;
-}
-.monitor {
-position: absolute;
-    width: 370px;
-    top: 696px;
-    list-style-type: none;
-}
-.journal {
-    position: absolute;
-    width: 370px;
-    top: 1130px;
-    list-style-type: none;
-}
-.label {
-    position: absolute;
-    width: 370px;
-    top: 1130px;
-    list-style-type: none;
-}
-.growing {
-    position: absolute;
-    width: 370px;
-    top: 1130px;
-    list-style-type: none;
-}
+
