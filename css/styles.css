@@ -117,7 +117,6 @@ color: var(--color-accent-three);
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--color-accent);
-
 }
 .web-footer {
     font-weight: 700;
@@ -127,16 +126,19 @@ color: var(--color-accent-three);
     color: var(--color-accent-two);
 }
 
-.link-nav {
+.link {
+    color: var(--color-accent);
     font-weight: 500;
-    line-height: 1.14;
+    line-height: 1.14px;
     letter-spacing: 0.02em;
 }
 
-.link {
-    color: var(--color-accent);
+.link-tel, .link-mail {
+    color: var(--color-accent-three);
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
 }
-.link-tel, .footer-link-tel, .footer-link-mail {
+.footer-link-tel, .footer-link-mail {
     color: var(--color-accent-three);
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -147,6 +149,10 @@ color: var(--color-accent-three);
 }
 
 .link-tel:hover {
+    color: var(--color-accent-four);
+}
+
+.link-mail:hover {
     color: var(--color-accent-four);
 }
 
@@ -187,6 +193,7 @@ color: var(--color-accent-three);
 
 .button :hover {
     background-color: var(--background-color-blue);
+    color: var(--color-accent-two);
 }
 
 .button :focus {
