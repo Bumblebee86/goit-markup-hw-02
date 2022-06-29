@@ -1,195 +1,198 @@
 :root {
-    --background-color: #E5E5E5;
+    --background-color-accent: #2F303A;
+    --background-color-grey: #e5e5e5;
+    --background-color-white: #ffffff;
+    --background-color-light-greу: #F5F4FA;
+    --background-color-blue: #2196F3;
+    --background-color-dark-blue: #04508f;
     --color-accent: #212121;
+    --color-accent-two: #ffffff;
+    --color-accent-three: #757575;
+    --color-accent-four: #2196F3;
 }
 
 body {
     font-family:'Roboto', sans-serif;
     font-size: 14px; letter-spacing: 0.03em;
-    color: var(--background-color);
+    color: var(--color-accent);
+}
+
+a, ul, li {
+    text-decoration: none;
+    list-style-type: none;
+    font-style: normal
 }
 
 .header {
-background-color:  #ffffff;
+    background-color: var(--background-color-white);
 }
 
-.main {
-    color: var(--color-accent);
-}
-.h1 {
-    color: #ffffff;
+.title {
+    color: var(--color-accent-two)
     font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
-.section-h1-button {
-background-color: var(--color-accent);
-color: #ffffff;
+.title-project {
+    background-color: var(--background-color-grey);
 }
 
-.h2-hidden {
+.article-project {
     visibility: hidden;
 }
 
-.h2, h3 {
+
+.section-button {
+    background-color: var(--background-color-accent);
+    color: var(--color-accent-two);
+}
+
+.skills-hidden {
+    visibility: hidden;
+}
+
+.article-skills {
     font-weight: 700;
-    color: var(--color-accent);
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.h3-p {
-    font-weight: 400;
-    color: #757575;
+.skills-text {
+    color: var(--color-accent-three);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
-.our-team {
-    background-color: #F5F4FA;
+.article-work, .article-team  {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.igor {
-    background-color: #ffffff;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+.article-post {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
-.olja {
-    background-color: #ffffff;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+.article-name, .article-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
-.nike {
-    background-color: #ffffff;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+.article-decoding {
+    color: var(--color-accent-three);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
 
-.mike {
-    background-color: #ffffff;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+.article-paragraph {
+color: var(--color-accent-three);
+}
+
+.team-title {
+    background-color: var(--background-color-light-greу);
+}
+
+.title-img {
+    background-color: var(--background-color-white);
 }
 
 .web, .web-footer  {
     font-weight: 700;
+    font-size: 26px;
+    font-family: Raleway;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--color-accent);
-    text-decoration: none;
+
 }
 .web-footer {
-    color: #ffffff;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-accent-two);
 }
 
 .link-nav {
-    list-style: none;
-    
-}
-.link {
     font-weight: 500;
-    text-decoration: none;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.link {
     color: var(--color-accent);
-    font-style: normal;
 }
 .link-tel, .footer-link-tel, .footer-link-mail {
-    font-weight: 500;
-    text-decoration: none;
-    color: #757575;
-    font-style: normal
+    color: var(--color-accent-three);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
+
 .link:hover {
-    color: #2196F3;
+    color: var(--color-accent-four);
+}
+
+.link-tel:hover {
+    color: var(--color-accent-four);
 }
 
 .footer {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
-    background-color: var(--color-accent);
+    background-color: var(--background-color-accent);
 }
+
 .footer-link {
-    color: #ffffff;
-    font-style: normal;
-    text-decoration: none;
+    color: var(--background-color-white);
 }
 .footer-link:hover {
-    color: #2196F3;
+    color: var(--color-accent-four);
+}
+.footer-link-mail:hover {
+    color: var(--color-accent-four);
+}
+.footer-link-tel:hover {
+    color: var(--color-accent-four);
 }
 
 .button-order-service {
-    background-color: #2196F3;
-    color: #ffffff;
-    border: solid transparent;
-    border-radius: 4px;
+    background-color: var(--background-color-blue);
+    color: var(--color-accent-two);
     font-weight: 700;
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    cursor: pointer;    
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor:pointer;
+}
+.button-work {
+    background-color: var(--background-color-light-greу);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .button :hover {
-    background-color: #2196F3;
+    background-color: var(--background-color-blue);
 }
 
 .button :focus {
-    background-color: #04508f;
+    background-color: var(--background-color-dark-blue);
 }
 
-.button {
-    list-style-type: none;
-    background-color: var(--background-color);
+.work {
+    background-color: var(--background-color-white);
 }
-
-.button-all {
-    border: solid transparent;
-    border-radius: 4px;
-    font-weight: 500;
-    position: absolute;
-    width: 73px;
-    height: 38px;
-    cursor: pointer;
-}
-.button-website {
-    border: solid transparent;
-    border-radius: 4px;
-    font-weight: 500;
-    position: absolute;
-    width: 128px;
-    height: 38px;
-    cursor: pointer;
-}
-.button-app {
-    border: solid transparent;
-    border-radius: 4px;
-    font-weight: 500;
-    position: absolute;
-    width: 145px;
-    top: 174px;
-    cursor: pointer;
-}
-.button-design {
-    border: solid transparent;
-    border-radius: 4px;
-    font-weight: 500;
-    position: absolute;
-    width: 103px;
-    top: 174px;
-    cursor: pointer;
-}
-.button-marketing {
-    border: solid transparent;
-    border-radius: 4px;
-    font-weight: 500;
-    position: absolute;
-    width: 130px;
-    top: 174px;
-    cursor: pointer;
-}
-
-.notebook, .basketball, .restaurant, .headphones, .boxes, .monitor, .journal, .label, .growing {
-    background-color: #ffffff;
-    border: 1px solid #EEEEEE;
-    font-weight: 400;
-    color: #757575;
-}
-
-
