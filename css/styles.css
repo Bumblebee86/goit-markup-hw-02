@@ -4,7 +4,6 @@
     --background-color-white: #ffffff;
     --background-color-light-greу: #F5F4FA;
     --background-color-blue: #2196F3;
-    --background-color-dark-blue: #04508f;
     --color-accent: #212121;
     --color-accent-two: #ffffff;
     --color-accent-three: #757575;
@@ -74,7 +73,6 @@ a, ul, li {
     font-size: 36px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
 .article-post {
@@ -84,8 +82,15 @@ a, ul, li {
     letter-spacing: 0.06em;
 }
 
-.article-name, .article-paragraph {
+.article-name {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.article-paragraph {
+    color: var(--color-accent-three);
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -96,10 +101,6 @@ a, ul, li {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-}
-
-.article-paragraph {
-color: var(--color-accent-three);
 }
 
 .team-title {
@@ -134,6 +135,7 @@ color: var(--color-accent-three);
 }
 
 .link-tel, .link-mail {
+    font-weight: 500;
     color: var(--color-accent-three);
     line-height: 1.14px;
     letter-spacing: 0.02em;
@@ -197,7 +199,8 @@ color: var(--color-accent-three);
 }
 
 .button :focus {
-    background-color: var(--background-color-dark-blue);
+    background-color: var(--background-color-blue);
+    color: var(--color-accent-two);
 }
 
 .work {
